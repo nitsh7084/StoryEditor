@@ -35,6 +35,7 @@ this.init();
 
 Editor.prototype = {
 
+//initialize events
 init : function(){
 var self = this;
 var istitlekeypressed = false;
