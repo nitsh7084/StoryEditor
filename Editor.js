@@ -1,8 +1,9 @@
 define(['/scripts/ui.js','/scripts/Tag.js'],function(ui,Tag){
 
 
-
+//Editor constuctor function
 function Editor(el,item){
+//Caching jquery selectors
 this.title_container = $('#story_title_cont a');
 this.title_container_span = $("#story_title_cont a span");
 this.body_container_span = $("#middle_story_body span");
