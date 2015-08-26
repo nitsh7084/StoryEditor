@@ -1,5 +1,5 @@
-define(['/scripts/ui.js','/scripts/Tag.js'],function(ui,Tag){
 
+(function(){
 
 //Editor constuctor function
 function Editor(el,item){
@@ -707,4 +707,4 @@ this.place_cursor("editable_field",62);
 return Editor;
 
 
-});
+})(undefined);
