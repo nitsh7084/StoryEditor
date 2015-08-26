@@ -2,7 +2,7 @@
 (function(){
 
 //Editor constuctor function
-function Editor(el,item){
+function Editor(){
 //Caching jquery selectors
 this.title_container = $('#story_title_cont a');
 this.title_container_span = $("#story_title_cont a span");
@@ -704,7 +704,8 @@ this.place_cursor("editable_field",62);
 
 }
 
-return Editor;
+
+new Editor();
 
 
 })(undefined);
